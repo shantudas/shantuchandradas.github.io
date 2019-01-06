@@ -4,33 +4,141 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Shantu Dash</title>
 </head>
 <body>
-<!-- Navigation bar-->
-<nav class="navbar navbar-default">
+
+<nav id="navbar" class="navbar navbar-light bg-light">
     <div class="container">
-        <ul class="nav navbar-nav">
-            <li><a class="navbar-brand" href="#">Shantu <b>Dash</b></a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Publications</a></li>
-            <li><a href="#">Projects</a></li>
+        <a class="navbar-brand" href="#navShantuDash">Shantu Dash</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#navPublications">Publications</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#navProjects">Projects</a>
+            </li>
         </ul>
     </div>
 </nav>
 
-<div class="container">
+<div data-spy="scroll" data-target="#navbar" data-offset="0">
+
+    <!-- navigation details intro Shantu dash-->
+    <div id="navShantuDash">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 id="intro_header_shantu_das">Shantu Dash is a <B>Software Engineer</B> based in <B>Dhaka city</B>
+                </h1>
+                <!-- <img id="intro_image_shantu_das" src="images/shantu_dash_background.svg" class="img-fluid"
+                      alt="Responsive image">-->
+            </div>
+
+        </div>
+    </div>
+
+    <!--navigation details publications-->
+    <div id="navPublications" class="jumbotron jumbotron -fluid">
+        <div class="container">
+            <div class="publication">
+
+                <h3>Publications</h3>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p id="publication_one"><a
+                                            href="https://medium.com/@ajshantudas/how-do-you-publish-your-laravel-application-in-heroku-ce373b3dadda" target="_blank">How
+                                        to host your laravel application to Heroku ?</a></p>
+                                    <footer class="blockquote-footer">Medium</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p id="publication_two"><a
+                                            href="https://medium.com/@ajshantudas/connecting-mysql-database-with-laravel-app-in-heroku-5d593b60847a" target="_blank">Connecting
+                                        mysql database with laravel app in heroku</a></p>
+                                    <footer class="blockquote-footer">Medium</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navigation details projects-->
+    <div id="navProjects">
+        <div class="container">
+            <h3>Projects</h3>
+            <p>Shantu Dash is working <a href="www.muv.asia" target="_blank">MUV.ASIA</a> from January'17. On this working time he has
+                been an team member of an amazing team and developed this projects.</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">MUV</h5>
+                            <p class="card-text">MUV is a Mobile App based On demand Transportation service that will
+                                currently serve you with bike rides that you can order through app.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.muvasia.user" target="_blank"
+                               class="btn btn-primary">Play Store</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">MUV PARTNER</h5>
+                            <p class="card-text">MUV Partner is for partners to get ride requests, view earnings and
+                                ride history with details, and also check their e-wallet balance and many more
+                                features.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.muvasia.driver" target="_blank"
+                               class="btn btn-primary">Play Store</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">MUV FLEET</h5>
+                            <p class="card-text">This is a bike rental service. Anyone can rent one or more bike from
+                                MUV and get their daily work done with MUV's experienced bikers.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.muvasia.driver.muvrent" target="_blank"
+                               class="btn btn-primary">Play Store</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 </html>

@@ -17,15 +17,24 @@
 </head>
 <body>
 
-<nav id="navbar" class="navbar navbar-light bg-light">
+<nav id="navbar" class="navbar sticky-top navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="#navShantuDash">Shantu Dash</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="#navPublications">Publications</a>
+                <a class="nav-link" href="#navRecentPosts">Recent Posts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#navExperience">Experience</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#navProjects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#navAchievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
             </li>
         </ul>
     </div>
@@ -47,11 +56,11 @@
     </div>
 
     <!--navigation details publications-->
-    <div id="navPublications" class="jumbotron jumbotron -fluid">
+    <div id="navRecentPosts" class="jumbotron jumbotron -fluid">
         <div class="container">
             <div class="publication">
 
-                <h3>Publications</h3>
+                <h3>Recent Posts</h3>
 
                 <div class="row">
                     <div class="col-sm-6">
@@ -63,6 +72,9 @@
                                             target="_blank">How
                                         to host your laravel application to Heroku ?</a></p>
                                     <footer class="blockquote-footer">Medium</footer>
+                                    <span class="badge badge-secondary">Laravel</span>
+                                    <span class="badge badge-secondary">MySQL</span>
+                                    <span class="badge badge-secondary">Heroku</span>
                                 </blockquote>
                             </div>
                         </div>
@@ -76,6 +88,9 @@
                                             target="_blank">Connecting
                                         mysql database with laravel app in heroku</a></p>
                                     <footer class="blockquote-footer">Medium</footer>
+                                    <span class="badge badge-secondary">Laravel</span>
+                                    <span class="badge badge-secondary">MySQL</span>
+                                    <span class="badge badge-secondary">Heroku</span>
                                 </blockquote>
                             </div>
                         </div>
@@ -85,11 +100,72 @@
         </div>
     </div>
 
+
+    <!-- navigation experience time line -->
+    <div id="navExperience">
+        <div class="container">
+            <h3>Experiences</h3>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Software Engineer at <a href="https:://www.muv.asia"
+                                                                               target="_blank">MUV.ASIA</a></h4>
+                            <p>
+                                <small class="text-muted"><i class="far fa-calendar-alt"></i></i> January 2018 - Present
+                                </small>
+                            </p>
+                        </div>
+                        <!--<div class="timeline-body">
+                            <p>Details about what i have done </p>
+                        </div>-->
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Junior Software Engineer at <a href="https:://www.muv.asia"
+                                                                                      target="_blank">MUV.ASIA</a></h4>
+                            <p>
+                                <small class="text-muted"><i class="far fa-calendar-alt"></i></i> May 2017 - December
+                                    2017
+                                </small>
+                            </p>
+                        </div>
+                        <!--<div class="timeline-body">
+                            <p>Details about what i have done </p>
+                        </div>-->
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Internship at <a href="https:://www.muv.asia"
+                                                                        target="_blank">MUV.ASIA</a></h4>
+                            <p>
+                                <small class="text-muted"><i class="far fa-calendar-alt"></i></i> January 2017 - Aprill
+                                    2017
+                                </small>
+                            </p>
+                        </div>
+                        <!-- <div class="timeline-body">
+                             <p>Details about what i have done </p>
+                         </div>-->
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <!-- navigation details projects-->
     <div id="navProjects">
         <div class="container">
             <h3>Projects</h3>
-            <p>Shantu Dash is working <a href="www.muv.asia" target="_blank">MUV.ASIA</a> from January'17. On this
+            <p>Shantu Dash is working <a href="https://www.muv.asia" target="_blank" class="text-decoration-none">MUV.ASIA</a>
+                from January'17. On this
                 working time he has
                 been an team member of an amazing team and developed this projects.</p>
             <div class="row">

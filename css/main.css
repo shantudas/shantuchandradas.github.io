@@ -18,6 +18,13 @@ Publications style
     /*font-family: 'Inter UI', sans-serif;*/
 }
 
+/* Publication latest */
+
+#publication_latest a{
+    text-decoration: none;
+    color: black;
+}
+
 /*publication One*/
 
 #publication_one a {
@@ -35,7 +42,6 @@ Publications style
 Footer Starts here
 */
 .site-footer {
-    margin-top: 20px;
     background-color: #26272b;
     padding: 45px 0 20px;
     font-size: 15px;
